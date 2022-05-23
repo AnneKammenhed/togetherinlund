@@ -1,8 +1,10 @@
 <h1>Toghether in Lund</h1>
 
-Together in Lund is a website for people living in Lund, who are interested in engaging in social activities. 
+Together in Lund is a website for people living in Lund, who are interested in engaging in social activities. The site offers a one-stop-shop were all the activities organized by NGOs in Lund are collected. 
 
-Users will find information about different activities on the website for example type of activity, time and a sign up form. There is also contact information about the NGOs in Lund who are arranging the activities.
+Users will find information about different activities on the website for example type of activity, time and a sign up form. There is also contact information for the NGOs in Lund who are arranging the activities.
+
+Since the site also targets people who don't usually get involved in social activities, the site aims to be an easy way to enroll in an activity. 
 _________________________
 
 Skärmdump från sida som visar olika skärmstorlekar
