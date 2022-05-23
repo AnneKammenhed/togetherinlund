@@ -10,7 +10,12 @@ body {
     font-family: 'Roboto Slab', sans-serif;
     font-weight: 300;
     color: #232323;
-    background: rgb(242, 243, 169);
+}
+
+/* header */
+
+header { 
+    background-color: white;
 }
 
 /* headings and logo */
@@ -55,7 +60,7 @@ h1, h2 {
 
 .active {
     border: 1px solid black;
-    background: rgb(246, 249, 107);
+    background: rgb(223, 176, 21);
 }
 
 /* Hero img amd cover text*/
@@ -63,7 +68,6 @@ h1, h2 {
 #hero-outer {
     height: 300px;
     width: 100%;
-    overflow: hidden;
 }
 
 #cover-text #cover-text h2{
@@ -71,9 +75,9 @@ h1, h2 {
 }
 
 #hero-img {
-    height: 300px;
+    height: 600px;
     width: 100%;
-    background: url('../images/pexels-photo-8252651.jpg') repeat center center;
+    background: url('../images/omslag-pexels-rodnae-productions-7551762.jpg') no-repeat center center;
 }
 
 #cover-text {
@@ -81,16 +85,23 @@ h1, h2 {
     font-family: "Roboto Slab" sans-serif;
     letter-spacing: 4px;
 
-    width: 300px;
-    height: 200px;
+    width: 200px;
+    height: 100px;
 
     padding-top: 40px;
     padding-right: 10px;
 
-    background-color: rgba(246, 249, 107, .7);
+    background-color: rgb(223, 176, 21, .5);
 
     bottom: 30px;
     right: 150px;
 
     position: absolute;
+}
+
+/* activities section */
+
+.activities {
+    border: 0;
+    background-color: white;
 }
