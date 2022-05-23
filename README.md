@@ -1,3 +1,36 @@
+<h1>Toghether in Lund</h1>
+
+Together in Lund is a website for people living in Lund, who are interested in engaging in social activities. 
+
+Users will find information about different activities on the website for example type of activity, time and a sign up form. There is also contact information about the NGOs in Lund who are arranging the activities.
+_________________________
+
+Skärmdump från sida som visar olika skärmstorlekar
+
+<h2>Features</h2>
+Navigation
+Header
+About the organizations
+The sign up form
+The social media links
+
+<h2>Testing</h2>
+The tests
+<ul>
+<li>I tested the site on different browsers chrome, safari and explorer</li>
+<li>I tested https://validator.w3.org/#validate_by_input</li>
+<li>I also tested </li>
+</ul>
+Bugs
+
+<h2>Deployment</h2>
+
+<h2>Credits</h2>
+Love running project 
+
+Image from https://www.pexels.com/sv-se/
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome AnneKammenhed,
