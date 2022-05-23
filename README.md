@@ -21,7 +21,7 @@ The tests
 <ul>
 <li>I tested the site on different browsers chrome, safari and explorer</li>
 <li>I tested https://validator.w3.org/#validate_by_input</li>
-<li>I also tested </li>
+<li>I made sure that the hero image is big enough for large screens</li>
 </ul>
 Bugs
 
