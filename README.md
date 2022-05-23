@@ -1,8 +1,8 @@
 <h1>Toghether in Lund</h1>
 
-Together in Lund is a website for people living in Lund, who are interested in engaging in social activities. The site offers a one-stop-shop were all the activities organized by NGOs in Lund are collected. 
+Together in Lund is a website for people living in Lund, Sweden who are interested in engaging in social activities. The site offers a one-stop-shop were all the activities organized by NGOs in Lund are collected. 
 
-Users will find information about different activities on the website for example type of activity, time and a sign up form. There is also contact information for the NGOs in Lund who are arranging the activities.
+Users will find information about different activities on the website for example type of activity, time and a sign up form. 
 
 Since the site also targets people who don't usually get involved in social activities, the site aims to be an easy way to enroll in an activity. 
 _________________________
@@ -17,23 +17,27 @@ The sign up form
 The social media links
 
 <h2>Testing</h2>
-The tests
+<h3>The tests</h3>
 <ul>
 <li>I tested the site on different browsers chrome, safari and explorer</li>
 <li>I tested https://validator.w3.org/#validate_by_input</li>
 <li>I made sure that the hero image is big enough for large screens</li>
 </ul>
-Bugs
+
+<h3>Bugs</h3>
 
 <h2>Deployment</h2>
 
 <h2>Credits</h2>
-Love running project 
+The site is built with the Code Institute student template for Gitpod. 
 
-Fonts from https://fonts.google.com/
-Image from https://www.pexels.com/sv-se/
-Symbols from https://fontawesome.com/ 
+I haven't reused any code, but have taken inspiration from the Love running project. 
 
+<ul>
+<li>Fonts from https://fonts.google.com/</li>
+<li>Images from https://www.pexels.com/sv-se/</li>
+<li>Symbols from https://fontawesome.com/</li>
+</ul>
 _______________________
 
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
