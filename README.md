@@ -30,8 +30,10 @@ Bugs
 <h2>Credits</h2>
 Love running project 
 
+Fonts from https://fonts.google.com/
 Image from https://www.pexels.com/sv-se/
 
+_______________________
 
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
