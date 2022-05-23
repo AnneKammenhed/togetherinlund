@@ -15,7 +15,7 @@ body {
 /* header */
 
 header { 
-    background-color: white;
+    background: white;
 }
 
 /* headings and logo */
@@ -66,7 +66,7 @@ h1, h2 {
 /* Hero img amd cover text*/
 
 #hero-outer {
-    height: 300px;
+    height: 500px;
     width: 100%;
 }
 
@@ -75,7 +75,7 @@ h1, h2 {
 }
 
 #hero-img {
-    height: 600px;
+    height: 500px;
     width: 100%;
     background: url('../images/omslag-pexels-rodnae-productions-7551762.jpg') no-repeat center center;
 }
@@ -101,7 +101,16 @@ h1, h2 {
 
 /* activities section */
 
-.activities {
-    border: 0;
-    background-color: white;
+#activities {
+    background: white;
+}
+
+#activities div {
+    color: white;
+    background-color: black;
+    width: 15%;
+    height:300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    border: 2px solid white;
 }
