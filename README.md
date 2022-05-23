@@ -32,6 +32,7 @@ Love running project
 
 Fonts from https://fonts.google.com/
 Image from https://www.pexels.com/sv-se/
+Symbols from https://fontawesome.com/ 
 
 _______________________
 
