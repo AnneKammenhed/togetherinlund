@@ -7,9 +7,9 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     font-weight: 300;
-    color: black;
+    color: #232323;
 }
 
 /* headings and logo */
@@ -17,10 +17,41 @@ body {
 h1, h2 {
     font-family: Arial, sans-serif;
     letter-spacing: 4px;
-    color: black;
+    color: rgb(28, 27, 27);
 }
 
 #logo {
     float: left;
     font-size: 200%;
+}
+
+/* navigation menu */
+
+#navigation {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#navigation, #logo {
+    line-height: 100px;
+}
+
+#navigation li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navigation a:hover {
+    border-bottom: 1px solid #1a1a1a;
+}
+
+.active {
+    border: 1px solid black;
+    background: rgb(161, 203, 159);
 }
