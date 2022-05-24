@@ -81,10 +81,38 @@
     </section>
 
     <section id="form">
-        <h2>Sign up for an activity or our newsletter</h2>
-        <Form method="post">
-            
-        </Form>
+        
+        <form method="POST" action="https://formdump.codeinstitute.net/">
+            <h2>Sign up for an activity or our newsletter!</h2>
+            <div>
+                <label for="activity">Activity</label>
+                <select name="activity" id="activity">
+                    <option value="yoga-monday">Yoga Monday</option>
+                    <option value="yoga-monday">Coffee Wednesday</option>
+                    <option value="yoga-monday">Boule Thursday</option>
+                    <option value="yoga-monday">Yoga Saturday</option>
+                    <option value="yoga-monday">Coffee Sunday</option>
+            </div>
+            <div>
+                <label for="name">Name</label>
+                <input id="name" type="text" required name="name">
+            </div>
+            <div>
+                <label for="email">E-mail</label>
+                <input id="email" type="email" required name="email_address">
+            </div>
+            <div>
+                <label for="phone">Telephone number</label>
+                <input id="phone" type="number" required name="phone">
+            </div>
+            <div>
+                <p>Would you like to get our newsletter?</p>
+                <label for="yes">Yes</label>
+                <input type="radio" id="yes" name="yes">
+                <label for="no">No</label>
+                <input type="radio" id="no" name="no">
+            </div>
+        </form>
     </section>
 
     <section id="organization">
