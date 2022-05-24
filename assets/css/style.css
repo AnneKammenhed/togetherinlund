@@ -71,7 +71,6 @@ h1, h2 {
 
 /* Hero img amd cover text*/
 
-
 #hero-outer {
     height: 600px;
     width: 100%;
@@ -148,20 +147,44 @@ h1, h2 {
 
 #organization-left {
     padding-top: 30px;
-    width: 33%;
+    width: 25%;
     float: left;
 }
 
 #organization-right {
     padding-top: 30px;
-    width: 33%;
+    width: 25%;
     float: right;
 }
 
 #organization-center {
-    width: 33%;
-    margin: 0 auto;
-    background-color: green;
+    width: 50%;
+    display: inline-block;
+}
+
+.organization-left-heading {
+    width: 60%;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.organization-right-heading {
+    width: 60%;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+#organization-heading {
+    margin-left: 30px;
+}
+
+#video-container {
+    width: 550px;
+    height: 300px;
+    padding: 30px;
+    border-width: 1px;
 }
 
 /* footer */
