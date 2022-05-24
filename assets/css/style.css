@@ -21,7 +21,7 @@ header {
     width: 100%;
 }
 
-#sticky-header {
+.header {
     position: sticky;
     top: 0;
 }
@@ -78,6 +78,7 @@ h1, h2 {
     width: 100%;
 
     position: relative;
+    box-sizing: border-box;
 }
 
 #cover-text #cover-text h2{
