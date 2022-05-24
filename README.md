@@ -22,6 +22,7 @@ The social media links
 <li>I tested the site on different browsers chrome, safari and explorer</li>
 <li>I tested https://validator.w3.org/#validate_by_input</li>
 <li>I made sure that the hero image is big enough for large screens</li>
+<li>Color palette test for contrast</li>
 </ul>
 
 <h3>Bugs</h3>
@@ -37,6 +38,7 @@ I haven't reused any code, but have taken inspiration from the Love running proj
 <li>Fonts from https://fonts.google.com/</li>
 <li>Images from https://www.pexels.com/sv-se/</li>
 <li>Symbols from https://fontawesome.com/</li>
+<li>Colour-palette from https://coolors.co/</li>
 </ul>
 _______________________
 
