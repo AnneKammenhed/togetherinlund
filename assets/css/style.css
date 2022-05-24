@@ -21,6 +21,11 @@ header {
     width: 100%;
 }
 
+#sticky-header {
+    position: sticky;
+    top: 0;
+}
+
 /* headings and logo */
 
 h1, h2 {
@@ -149,10 +154,8 @@ h1, h2 {
 /* footer */
 
 footer {
-    background: blue;
     width: 100%;
     height: 200px;
-    float: left;
 }
 
 .social-networks {
