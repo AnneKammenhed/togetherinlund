@@ -30,7 +30,7 @@ header {
 
 /* headings and logo */
 
-h1, h2 {
+h1, h2, h3 {
     font-family: Arial, sans-serif;
     font-weight: bold;
     letter-spacing: 4px;
@@ -100,7 +100,7 @@ h1, h2 {
     box-sizing: border-box;
 }
 
-#activities h2 {
+#activities h2, h3 {
     color: white;
 }
 
@@ -124,6 +124,10 @@ h1, h2 {
     padding: 30px 0 0 10px;
     border: 2px solid white;
     box-sizing: border-box;
+}
+
+#form-heading {
+    margin-left: 30px;
 }
 
 /* organization section */
@@ -206,5 +210,5 @@ footer {
     font-size: 200%;
     margin: 1%;
     padding: 5%;
-    color: black;
+    color: white;
 }

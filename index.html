@@ -47,28 +47,28 @@
             <h3>Monday</h3>
             <h3>18:00</h3>
             <h3>The Shala</h3>
-            <h3>Sign up</h3>
+            <h3><a href="#form">Sign up</a></h3>
         </div>
         <div>
             <h2>Coffee <i class="fa-solid fa-mug-saucer"></i></h2>
             <h3>Wednesday</h3>
             <h3>18:00</h3>
             <h3>The Coffee Shop</h3>
-            <h3>Sign up</h3>
+            <h3><a href="#form">Sign up</a></h3>
         </div>
         <div>
             <h2>Boule <i class="fa-solid fa-circle"></i></h2>
             <h3>Thursday</h3>
             <h3>18:00</h3>
             <h3>The City Park</h3>
-            <h3>Sign up</h3>
+            <h3><a href="#form">Sign up</a></h3>
         </div>
         <div>
             <h2>Yoga <i class="fa-solid fa-yin-yang"></i></h2>
             <h3>Saturday</h3>
             <h3>09:00</h3>
             <h3>The Shala</h3>
-            <h3>Sign up</h3>
+            <h3><a href="#form">Sign up</a></h3>
         </div>
         <div>
             <a href="https://youtu.be/-yFeZekJxZ8" id="jazz"></a>
@@ -76,23 +76,13 @@
             <h3>Sunday</h3>
             <h3>15:00</h3>
             <h3>The Coffee Shop</h3>
-            <h3>Sign up</h3>
+            <h3><a href="#form">Sign up</a></h3>
         </div>
     </section>
 
     <section id="form">
-        
-        <form method="POST" action="https://formdump.codeinstitute.net/">
-            <h2>Sign up for an activity or our newsletter!</h2>
-            <div>
-                <label for="activity">Activity</label>
-                <select name="activity" id="activity">
-                    <option value="yoga-monday">Yoga Monday</option>
-                    <option value="yoga-monday">Coffee Wednesday</option>
-                    <option value="yoga-monday">Boule Thursday</option>
-                    <option value="yoga-monday">Yoga Saturday</option>
-                    <option value="yoga-monday">Coffee Sunday</option>
-            </div>
+        <h2 id="form-heading">Sign up for an activity or our newsletter!</h2>
+        <form method="POST" action="https://formdump.codeinstitute.net/" id="signup-form">
             <div>
                 <label for="name">Name</label>
                 <input id="name" type="text" required name="name">
@@ -103,14 +93,27 @@
             </div>
             <div>
                 <label for="phone">Telephone number</label>
-                <input id="phone" type="number" required name="phone">
+                <input id="phone" type="text" required name="phone">
             </div>
             <div>
+                <label for="activity">Activity</label>
+                <select name="activity" id="activity">
+                    <option value="yoga-monday">Yoga Monday</option>
+                    <option value="yoga-monday">Coffee Wednesday</option>
+                    <option value="yoga-monday">Boule Thursday</option>
+                    <option value="yoga-monday">Yoga Saturday</option>
+                    <option value="yoga-monday">Coffee Sunday</option>
+                </select>    
+            </div>
+            <div>
+                <input type="submit" value="I am joining!">
+            </div>
+        </form>
+        <form action="https://formdump.codeinstitute.net/" method="post" id="newsletter-form">
+            <div>
                 <p>Would you like to get our newsletter?</p>
-                <label for="yes">Yes</label>
-                <input type="radio" id="yes" name="yes">
-                <label for="no">No</label>
-                <input type="radio" id="no" name="no">
+                <input id="email-newsletter" type="email" required name="email_address" placeholder="Your email">
+                <input type="submit" value="Get newsletter">
             </div>
         </form>
     </section>
