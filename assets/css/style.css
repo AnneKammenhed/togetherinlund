@@ -1,3 +1,5 @@
+/* imported fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Roboto:wght@300&display=swap');
 
 * {
@@ -16,13 +18,13 @@ body {
 /* header */
 
 header { 
-    background: white;
+    background: #C9D4CD;
     height: 100px;
     width: 100%;
 }
 
-.header {
-    position: sticky;
+#fixed-header {
+    position: fixed;
     top: 0;
 }
 
@@ -38,6 +40,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 300%;
+    margin-left: 30px;
 }
 
 /* navigation menu */
@@ -66,48 +69,18 @@ h1, h2 {
     border-bottom: 1px solid #1a1a1a;
 }
 
-.active {
-    border: 1px solid black;
-    background: rgb(246, 248, 249);
-}
-
 /* Hero img amd cover text*/
+
 
 #hero-outer {
     height: 600px;
     width: 100%;
-
-    position: relative;
-    box-sizing: border-box;
-}
-
-#cover-text #cover-text h2{
-        color: white;
 }
 
 #hero-img {
     height: 600px;
     width: 100%;
     background: url('../images/omslag-pexels-rodnae-productions-7551762.jpg') no-repeat center center;
-}
-
-#cover-text {
-    font-size: 100%;
-    font-family: "Roboto Slab" sans-serif;
-    letter-spacing: 4px;
-
-    border-radius: 25px;
-    background-color: rgb(246, 248, 249, .7);
-    padding-top: 40px;
-    padding-right: 10px;
-    
-    width: 300px;
-    height: 200px;
-
-    bottom: 150px;
-    right: 500px;
-
-    position: absolute;
 }
 
 /* activities section */
@@ -119,7 +92,7 @@ h1, h2 {
 #activities div {
     border-radius: 25px;
     color: white;
-    background-color: black;
+    background-color: #1b2423;
     width: 20%;
     height:300px;
     float: left;
@@ -132,24 +105,63 @@ h1, h2 {
     color: white;
 }
 
+#jazz {
+    background: blue;
+    height: 20px;
+    width: 20px;
+}
+
 /* form section */
 
 #form {
-    background: red;
+    background: #899793;
     color: black;
+    
     width: 100%;
     height:600px;
     float: left;
+
+    border-radius: 25px;
+    padding: 30px 0 0 10px;
+    border: 2px solid white;
+    box-sizing: border-box;
 }
 
 /* organization section */
 
 #organization {
-    background: green;
-    color: black;
-    width: 100%;
     height:600px;
+    width: 100%;
+
+    border-radius: 25px;
+    padding: 30px 0 0 10px;
+    border: 2px solid white;
+    
+    background: #393C3b;
+    color: white;
     float: left;
+}
+
+#organization h2 {
+    color: white;
+}
+
+#organization-left {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#organization-right {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#organization-center {
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
 }
 
 /* footer */
@@ -159,15 +171,15 @@ footer {
     height: 200px;
 }
 
-.social-networks {
+#social-networks {
     text-align: center;
 }
 
-.social-networks > li {
+#social-networks > li {
     display: inline;
 }
 
-.social-networks i {
+#social-networks i {
     font-size: 200%;
     margin: 1%;
     padding: 5%;

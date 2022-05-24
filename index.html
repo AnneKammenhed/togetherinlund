@@ -12,26 +12,26 @@
 </head>
 
 <body>
-    <header class="header">
+    <header id="fixed-header">
         <a href="index.html">
             <h1 id="logo">Together in Lund</h1>
         </a>
         <nav>
             <ul id="navigation">
                 <li>
-                    <a href="#social-networks" class="active">Social media</a>
+                    <a href="#social-networks">Social media</a>
                 </li>
                 <li>
-                    <a href="#organization" class="active">Organizations</a>
+                    <a href="#organization">Organizations</a>
                 </li>
                 <li>
-                    <a href="#form" class="active">Sign up!</a>
+                    <a href="#form">Sign up!</a>
                 </li>
                 <li>
-                    <a href="#activities" class="active">Activities</a>
+                    <a href="#activities">Activities</a>
                 </li>
                 <li>
-                    <a href="#hero-outer" class="active">Home</a>
+                    <a href="#hero-outer">Home</a>
                 </li>
             </ul>
         </nav>
@@ -39,10 +39,6 @@
   
     <section id="hero-outer">
         <div id="hero-img"></div>
-        <div id="cover-text">
-            <h2>Welcome to join!</h2>
-            <h3>some text</h3>
-        </div>
     </section>
 
     <section id="activities">
@@ -55,50 +51,61 @@
         </div>
         <div>
             <h2>Coffee <i class="fa-solid fa-mug-saucer"></i></h2>
-            <h3>Monday</h3>
+            <h3>Wednesday</h3>
             <h3>18:00</h3>
-            <h3>The Shala</h3>
+            <h3>The Coffee Shop</h3>
             <h3>Sign up</h3>
         </div>
         <div>
             <h2>Boule <i class="fa-solid fa-circle"></i></h2>
-            <h3>Monday</h3>
+            <h3>Thursday</h3>
             <h3>18:00</h3>
-            <h3>The Shala</h3>
+            <h3>The City Park</h3>
             <h3>Sign up</h3>
         </div>
         <div>
             <h2>Yoga <i class="fa-solid fa-yin-yang"></i></h2>
-            <h3>Monday</h3>
-            <h3>18:00</h3>
+            <h3>Saturday</h3>
+            <h3>09:00</h3>
             <h3>The Shala</h3>
             <h3>Sign up</h3>
         </div>
         <div>
+            <a href="https://youtu.be/-yFeZekJxZ8" id="jazz"></a>
             <h2>Coffee <i class="fa-solid fa-mug-saucer"></i></h2>
-            <h3>Monday</h3>
-            <h3>18:00</h3>
-            <h3>The Shala</h3>
+            <h3>Sunday</h3>
+            <h3>15:00</h3>
+            <h3>The Coffee Shop</h3>
             <h3>Sign up</h3>
         </div>
     </section>
+
     <section id="form">
         <h2>Sign up for an activity or our newsletter</h2>
         <Form>
             Here is the signup form
         </Form>
     </section>
+
     <section id="organization">
-      <h2>Organizations</h2>
-        <div>
+      <h2>Organizations with activities in Lund</h2>
+        <div id="organization-left">
             <h3>Student organization</h3>
             <p>Lund University has about 45 000 students we have activities for them.</p>
+            <h3>Organization for retired people</h3>
+            <p>We are old, but cool. Join our activities!</p>
+        </div>
+        <div id="organization-right">
             <h3>Organization for persons with disablities</h3>
             <p>We organize activities for the 10-30% of Swdedes who have a disability.</p>
+            <h3>Lund sports club</h3>
+            <p>We have activities for all levels from exercise to elite.</p>
         </div>
+        <div id="organization-center">Interactive movie clip</div>
     </section>
+
     <footer>
-    <ul class="social-networks">
+    <ul id="social-networks">
         <li><i class="fa-brands fa-facebook"></i></li>
         <li><i class="fa-brands fa-instagram"></i></li>
         <li><i class="fa-brands fa-twitter"></i></li>
@@ -106,11 +113,9 @@
     </ul>
     </footer>
 
-
     <!--font awesome scripts-->
 
     <script src="https://kit.fontawesome.com/93a6038a78.js" crossorigin="anonymous"></script>
 
 </body>
-
 </html>
