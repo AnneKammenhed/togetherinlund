@@ -1,4 +1,4 @@
-<h1>Toghether in Lund</h1>
+<h1>Together in Lund</h1>
 
 Together in Lund is a website for people living in Lund, Sweden who are interested in engaging in social activities. The site offers a one-stop-shop were all the activities organized by NGOs in Lund are collected. 
 
@@ -7,25 +7,35 @@ Users will find information about different activities on the website for exampl
 Since the site also targets people who don't usually get involved in social activities, the site aims to be an easy way to enroll in an activity. 
 _________________________
 
-Skärmdump från sida som visar olika skärmstorlekar
+/* Skärmdump från sida som visar olika skärmstorlekar */
 
 <h2>Features</h2>
-Navigation
-Header
-About the organizations
-The sign up form
-The social media links
+
+/* Skärmdump med bilder från sidan */
+
+<ul>
+<li>Navigation</li>
+<li>Hero Image</li>
+<li>Activities section</li>
+<li>About the organizations and video about Lund</li>
+<li>The sign up form</li>
+<li>The footer with social media links</li>
+</ul>
 
 <h2>Testing</h2>
 <h3>The tests</h3>
 <ul>
-<li>I tested the site on different browsers chrome, safari and explorer</li>
-<li>I tested https://validator.w3.org/#validate_by_input</li>
-<li>I made sure that the hero image is big enough for large screens</li>
+<li>I made sure that the hero image is big enough for large screens.</li>
+<li>I tested the site on different browsers chrome, safari and explorer.</li>
+<li>I tested the site on different screen sizes.</li>
+<li>I tested the code in W3C HTML Validator and W3C CSS Validator (Jigsaw) a couple of times.</li>
 <li>Color palette test for contrast</li>
 </ul>
 
 <h3>Bugs</h3>
+Testing the html-code the first time, a warning of missing the language for the html-page came back in the W3C validator. I corrected the language to en-US. There was also a warning about the hero-image section missing a header, but I used a div-element instead. I added the video in html at first, but the testing came back suggesting that was obsolete so I ended up putting the video in css instead. 
+
+The W3C CSS Validator came back without any issues the first time. 
 
 <h2>Deployment</h2>
 
