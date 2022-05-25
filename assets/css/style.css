@@ -109,55 +109,45 @@ h1, h2, h3 {
     width: 100%;
     background: #899793;
     color: black;
-}
-
-#form-section-heading {
-    margin-left: 30px;
-}
-    
-#form-div {
-    padding-top: 30px;
-    width: 50%;
-    float: left;
-    background-color: green;
-}
-
-#form-img {
-    padding-top: 30px;
-    width: 50%;
-    float: right;
-    background-color: red;
-    
-    /*background: url('../images/pexels-photo-10071077.jpeg') no-repeat center center; */
+    clear: left;
+    background: url('../images/pexels-photo-606545.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
 }
 
 .signup-form {
+    margin: 75px 10% 0 0;
     color: #fff;
-    background-color: #0C4153;
-    
-    /*width: 500px;
-    height: 500px;*/
-    
-    left: 30px;
-    
-    padding: 30px 0 0 10px;
-    box-sizing: border-box;
-    border-radius: 25px;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    /*
+    position: absolute; */
+    left: 10%;
+    padding: 30px;
+}
+
+.signup-form > h3 {
+    color: #fafafa;
+    margin-bottom: 20px;
 }
 
 .text-input {
     background: transparent;
-    color: whitesmoke;
-    width: 80%;
+    color: #fafafa;
+    width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
-    border-radius: 2 px;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #0C4153;
 }
 
 #activity {
     color: black;
-    background-color: white;
 }
 
 .join-button {
@@ -166,15 +156,15 @@ h1, h2, h3 {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #1b2423;
-    color: white;
+    background-color: #0C4153;
+    color: #fafafa;
     display: block;
 }
 
 .join-button:hover {
-    background-color: white;
-    color: black
-} 
+    background-color: #fafafa;
+    color: black;
+}
 
 /* organization section */
 
