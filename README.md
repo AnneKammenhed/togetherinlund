@@ -26,6 +26,7 @@ _________________________
 <h3>The tests</h3>
 <ul>
 <li>I made sure that the hero image is big enough for large screens.</li>
+<li>I tested the social media links and made sure they open in new tabs.</li>
 <li>I tested the site on different browsers chrome, safari and explorer.</li>
 <li>I tested the site on different screen sizes.</li>
 <li>I tested the code in W3C HTML Validator and W3C CSS Validator (Jigsaw) a couple of times.</li>
@@ -33,7 +34,7 @@ _________________________
 </ul>
 
 <h3>Bugs</h3>
-Testing the html-code the first time, a warning of missing the language for the html-page came back in the W3C validator. I corrected the language to en-US. There was also a warning about the hero-image section missing a header, but I used a div-element instead. I added the video in html at first, but the testing came back suggesting that was obsolete so I ended up putting the video in css instead. 
+Testing the html-code the first time, a warning of missing the language for the html-page came back in the W3C validator. I corrected the language to en-US. There was also a warning about the hero-image section missing a header, but I used a div-element instead. I added the video in html at first, but the testing came back suggesting that was obsolete so I ended up putting the video in css instead. having tried different options the link to youtube is still in html.
 
 The W3C CSS Validator came back without any issues the first time. 
 
