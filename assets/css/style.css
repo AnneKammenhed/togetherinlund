@@ -165,7 +165,7 @@ h1, h2, h3 {
 /* organization section */
 
 #organization {
-    height: 600px;
+    height: 500px;
     width: 100%;
 
     background: #393C3b;
@@ -178,17 +178,19 @@ h1, h2, h3 {
 }
 
 #organization-left {
+    margin-top: 20px;
     padding-top: 30px;
     width: 33%;
     float: left;
-    line-height: 2px;
+    line-height: 10px;
 }
 
 #organization-right {
+    margin-top: 20px;
     padding-top: 30px;
     width: 33%;
     float: right;
-    line-height: 2px;
+    line-height: 10px;
 }
 
 #organization-center {
@@ -197,14 +199,14 @@ h1, h2, h3 {
     display: inline-block;
 }
 
-.organization-left-heading {
+.organization-left-text {
     width: 60%;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px;
+    margin: 50px 0 0 20px;
 }
 
-.organization-right-heading {
+.organization-right-text {
     width: 60%;
     line-height: 20px;
     clear: both;
@@ -214,6 +216,20 @@ h1, h2, h3 {
 #organization-heading {
     margin: 30px 0 0 50px;
     text-align: center;
+}
+*/
+
+#video-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: hidden;
+    border-width: 1px;
+}
+
+#video {
+    width:500px;
+    height:250px;
 }
 
 /* footer */
