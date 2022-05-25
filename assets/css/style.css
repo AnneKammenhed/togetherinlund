@@ -82,7 +82,7 @@ h1, h2, h3 {
     background: url('../images/omslag-pexels-rodnae-productions-7551762.jpg') no-repeat center center;
 }
 
-/* activities section */
+/* Activities section */
 
 #activities {
     background: white;
@@ -112,7 +112,7 @@ h1, h2, h3 {
 
 /* form section */
 
-#form {
+#form-section {
     background: #899793;
     color: black;
     
@@ -121,27 +121,27 @@ h1, h2, h3 {
     float: left;
 }
 
-#form-heading {
+#form-section-heading {
     margin-left: 30px;
 }
 
-#form-img {
+#form-section-img {
     height: 600px;
     width: 50%;
     float: right;
-    background: url('../images/pexels-photo-10071077.jpeg') no-repeat center right;
+    background: url('../images/pexels-photo-10071077.jpeg') no-repeat center center;
 }
 
 .signup-form {
-    margin: 150px 10% 0 0;
     color: #fff;
     background-color: #0C4153;
     
-    width: 50%;
-    height: auto;
-    
+    width: 500px;
+    height: 500px;
+
     position: absolute;
-    left: 10%;
+    left: 30px;
+    
     padding: 30px 0 0 10px;
     box-sizing: border-box;
     border-radius: 25px;
@@ -149,13 +149,14 @@ h1, h2, h3 {
 
 .text-input {
     background: transparent;
-    color: fafafa;
-    width: 100%;
+    color: whitesmoke;
+    width: 80%;
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2 px;
 }
+
 .join-button {
     margin-top: 20px;
     border-radius: 2px;
@@ -170,7 +171,7 @@ h1, h2, h3 {
 .join-button:hover {
     background-color: white;
     color: black
-}
+} 
 
 /* organization section */
 
@@ -250,3 +251,10 @@ footer {
     padding: 5%;
     color: white;
 }
+
+/* Media queries */
+
+/* For large to medium screens sizes from 1200px wide and down */
+
+
+/* For medium screens sizes from 950px wide and down */
