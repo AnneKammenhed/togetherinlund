@@ -43,7 +43,7 @@ The W3C CSS Validator came back without any issues the first time.
 <h2>Credits</h2>
 The site is built with the Code Institute student template for Gitpod. 
 
-I haven't reused any code, but have taken inspiration from the Love running project. 
+I have have taken inspiration from the Love running project and reused the code that I wrote for the forms section. 
 
 <ul>
 <li>Fonts from https://fonts.google.com/</li>
