@@ -73,7 +73,6 @@
             <h3><a href="#form">Sign up</a></h3>
         </div>
         <div>
-            <a href="https://youtu.be/-yFeZekJxZ8" id="jazz"></a>
             <h2>Coffee <i class="fa-solid fa-mug-saucer"></i></h2>
             <h3>Sunday</h3>
             <h3>15:00</h3>
@@ -85,22 +84,24 @@
     <section id="form">
         <h2 id="form-heading">Sign up for an activity or our newsletter!</h2>
         <div id="form-img"></div>
-        <form method="POST" action="https://formdump.codeinstitute.net/" id="signup-form">
+        
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+            <h3>Sign upp now!</h3>
             <div>
                 <label for="name">Name</label>
-                <input id="name" type="text" required name="name">
+                <input id="name" type="text" required name="name" class="text-input">
             </div>
             <div>
                 <label for="email">E-mail</label>
-                <input id="email" type="email" required name="email_address">
+                <input id="email" type="email" required name="email_address" class="text-input">
             </div>
             <div>
                 <label for="phone">Telephone number</label>
-                <input id="phone" type="text" required name="phone">
+                <input id="phone" type="text" required name="phone" class="text-input">
             </div>
             <div>
                 <label for="activity">Activity</label>
-                <select name="activity" id="activity">
+                <select name="activity" id="activity" class="text-input">
                     <option value="yoga-monday">Yoga Monday</option>
                     <option value="yoga-monday">Coffee Wednesday</option>
                     <option value="yoga-monday">Boule Thursday</option>
@@ -109,14 +110,14 @@
                 </select>    
             </div>
             <div>
-                <input type="submit" value="I am joining!">
+                <input type="submit" value="I am joining!" class="join-button">
             </div>
         </form>
-        <form action="https://formdump.codeinstitute.net/" method="post" id="newsletter-form">
+        <form class="signup-form" action="https://formdump.codeinstitute.net/" method="post" id="newsletter-form">
             <div>
-                <p>Would you like to get our newsletter?</p>
+                <h3>Would you like to get our newsletter?</h3>
                 <input id="email-newsletter" type="email" required name="email_address" placeholder="Your email">
-                <input type="submit" value="Get newsletter">
+                <input type="submit" value="Get newsletter" class="join-button">
             </div>
         </form>
     </section>
