@@ -125,6 +125,13 @@ h1, h2, h3 {
     margin-left: 30px;
 }
 
+#form-img {
+    height: 600px;
+    width: 50%;
+    float: right;
+    background: url('../images/pexels-photo-10071077.jpeg') no-repeat center center;
+}
+
 /* organization section */
 
 #organization {

@@ -51,6 +51,8 @@ I haven't reused any code, but have taken inspiration from the Love running proj
 <li>Symbols from https://fontawesome.com/</li>
 <li>Colour-palette from https://coolors.co/</li>
 </ul>
+
+The hero-image is taken by Rodnae productions and the image in the form-section is also from Pexels.
 _______________________
 
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
