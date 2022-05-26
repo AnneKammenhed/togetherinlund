@@ -1,10 +1,10 @@
 <h1>Together in Lund - Milestone Project 1</h1>
-_______________________
 
 <h2>Purpose</h2>
 The purpose of this website is to complete the first Milestone project for the Code Institute's Full Stack Developer course.
 
 Together in Lund is a website for people living in Lund, Sweden who are interested in engaging in social activities. The site offers a one-stop-shop to activities in the city, organized by non gouvernemental organizations in Lund. 
+_______________________
 
 <h2>User Experience</h2>
  Users will find information about different activities on the website for example type of activity, time and a sign up form. For a first time user, it has to be easy and desireble to sign up to an activity.
@@ -58,6 +58,7 @@ Another bug, I wasn't able to fix when working with the media queries, is that t
 
 <img src="assets/images/glappnerehoger.JPG" alt="footer turns to right side of site when screen size under 1200px">
 
+When looking at the social media links in explorer, there is a line under the icons that is not visible in the other tested screen-readers.
 _______________________
 
 <h2>Deployment</h2>
