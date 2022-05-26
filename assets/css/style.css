@@ -219,8 +219,9 @@ h1, h2, h3 {
 }
 
 #video {
-    width:500px;
-    height:250px;
+    padding-top: 10px;
+    width:300px;
+    height:150px;
 }
 
 /* footer */
@@ -316,7 +317,13 @@ footer {
 
 @media screen and (max-width:730px) {
     #fixed-header {
-        font-size: 30%;
+        font-size: 35%;
         font-weight: bold;
+    }
+
+    #fixed-header li {
+        float: right;
+        clear: right;
+        line-height: 20px;
     }
 }
