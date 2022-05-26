@@ -17,12 +17,6 @@ body {
 
 /* header */
 
-header { 
-    background: #C9D4CD;
-    height: 100px;
-    width: 100%;
-}
-
 #fixed-header {
     position: fixed;
     top: 0;
@@ -73,7 +67,7 @@ h1, h2, h3 {
     border-bottom: 1px solid #1a1a1a;
 }
 
-/* Hero img amd cover text*/
+/* Hero img amd cover text */
 
 #hero-outer {
     height: 600px;
@@ -253,10 +247,17 @@ footer {
 
 /* Media queries */
 
-/* For large to medium screens sizes from 1200px wide and down */
+/* For large to screens sizes from 1200px wide and down */
 
 @media screen and (max-width:1200px) {
-    
+    #fixed-header {
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        font-size: 75%;
+    }
+
     #activities > div {
         width: 100%;
         clear: both;
@@ -287,24 +288,21 @@ footer {
         float: left;
         padding: 0;
     }
-
-    footer li {
-        size: 50%;
-    }
-
 }
 
-
-
-/* For medium screens sizes from 950px wide and down */
+/* For screens sizes from 950px wide and down */
 
 @media screen and (max-width:950px) {
-    
     #fixed-header {
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
+        font-size: 50%;
+    }
+
+    #fixed-header li {
+        text-align: right;
     }
 
     #organization {
@@ -314,11 +312,11 @@ footer {
     }
 }
 
-/* For medium screens sizes from 480px wide and down 
+/* For screens sizes from 730px wide and down */
 
-@media screen and (max-width:480px) {
-    #pencil {
-        display: html(<i class="fa-solid fa-pencil"></i>);
+@media screen and (max-width:730px) {
+    #fixed-header {
+        font-size: 30%;
+        font-weight: bold;
     }
-    
-}*/
+}
