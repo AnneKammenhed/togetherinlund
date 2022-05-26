@@ -12,6 +12,7 @@ Together in Lund is a website for people living in Lund, Sweden who are interest
 The site targets people who don't usually get involved in social activities, the site aims to be a fun way to enroll in an activity.
 
 <img src="assets/images/togetherinlund different screens.JPG" alt="the site together in lund o different screen sizes">
+
 _______________________
 
 <h2>Features</h2>
@@ -25,8 +26,6 @@ The site contains these features
 <li>About the organizations and video about Lund</li>
 <li>Footer with social media links</li>
 </ul>
-
-/* Skärmdump med bilder från sidan */
 _______________________
 
 <h2>Testing</h2>
@@ -44,6 +43,8 @@ These are the tests that I did during the process:
 
 <img src="assets/images/lighthousevarde.JPG" alt="the site rating from Lighthouse">
 
+I tried to generate a favicon for my website to make the Lighthouse picture look better, but I ran out of time. Hopefully there will be time for the next project!
+
 <h3>Bugs</h3>
 I ran the W3C HTML Validator and W3C CSS Validator (Jigsaw) a number of times and there was a couple of issued that I wasn't able to correct. For the hero image the W3C HTML Validator sais "Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed." althoug I added a div-element so the section. I tried different options for the link to youtube. The W3C HTML Validator sais that "The frameborder attribute on the iframe element is obsolete." However I was not able to fix it so the link is still in html.
 
@@ -60,7 +61,12 @@ Another bug, I wasn't able to fix when working with the media queries, is that t
 _______________________
 
 <h2>Deployment</h2>
-Since the basic idea of this site is to give easy access to people to join activities, I added different sized media queries so that the site can be easily accessed.
+The site and the code is available here:
+
+https://github.com/AnneKammenhed/togetherinlund
+
+https://annekammenhed.github.io/togetherinlund/index.html
+
 _______________________
 
 <h2>Credits</h2>
