@@ -170,7 +170,6 @@ h1, h2, h3 {
 
 #organization-heading {
     margin: 30px 0 0 50px;
-    text-align: center;
     color: white;
 }
 
@@ -200,14 +199,14 @@ h1, h2, h3 {
     width: 60%;
     line-height: 20px;
     clear: both;
-    margin: 50px 0 0 20px;
+    margin: 20px 0 0 20px;
 }
 
 .organization-right-text {
     width: 60%;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px;
+    margin: 20px 0 0 20px;
 }
 
 #video-container {

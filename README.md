@@ -11,19 +11,19 @@ Together in Lund is a website for people living in Lund, Sweden who are interest
 
 The site targets people who don't usually get involved in social activities, the site aims to be a fun way to enroll in an activity.
 
-/* Skärmdump från sida som visar olika skärmstorlekar */
+<img src="assets/images/togetherinlund different screens.JPG" alt="the site together in lund o different screen sizes">
 _______________________
 
 <h2>Features</h2>
 The site contains these features
 
 <ul>
-<li>Navigation</li>
+<li>Header and navigation menu</li>
 <li>Hero Image</li>
 <li>Activities section</li>
-<li>About the organizations and video about Lund</li>
 <li>The sign up form</li>
-<li>The footer with social media links</li>
+<li>About the organizations and video about Lund</li>
+<li>Footer with social media links</li>
 </ul>
 
 /* Skärmdump med bilder från sidan */
@@ -42,10 +42,21 @@ These are the tests that I did during the process:
 <li>I tested the site's accessibility with Lighthouse.</li>
 </ul>
 
-<h3>Bugs</h3>
-Testing the html-code the first time, a warning of missing the language for the html-page came back in the W3C validator. I corrected the language to en-US. There was also a warning about the hero-image section missing a header, so I used a div-element instead. I added the video in html at first, but the testing came back suggesting that was obsolete so I ended up putting the video in css instead. having tried different options the link to youtube is still in html.
+<img src="assets/images/lighthousevarde.JPG" alt="the site rating from Lighthouse">
 
-The W3C CSS Validator came back without any issues the first time. 
+<h3>Bugs</h3>
+I ran the W3C HTML Validator and W3C CSS Validator (Jigsaw) a number of times and there was a couple of issued that I wasn't able to correct. For the hero image the W3C HTML Validator sais "Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed." althoug I added a div-element so the section. I tried different options for the link to youtube. The W3C HTML Validator sais that "The frameborder attribute on the iframe element is obsolete." However I was not able to fix it so the link is still in html.
+
+The W3C CSS Validator came back with a warning about the imported fonts.
+
+When working with the media queries, the header element shows a gap that I wasn't able to fix on screen sizes 1200px and less:
+
+<img src="assets/images/glappuppevanster.JPG" alt="upper left corner of site when screen size under 1200px">
+
+Another bug, I wasn't able to fix when working with the media queries, is that the footer element turns up on the left side of the organizations section screen sizes 1200px and less:
+
+<img src="assets/images/glappnerehoger.JPG" alt="footer turns to right side of site when screen size under 1200px">
+
 _______________________
 
 <h2>Deployment</h2>
