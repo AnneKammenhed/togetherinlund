@@ -27,9 +27,9 @@ The site contains these features
 <li>Footer with social media links</li>
 </ul>
 
-One of the features on the site that took some time to figure out was the fixed navigation in the header. Combining it with a position absolute for the form created some trouble at first, since the form whent over the fixed menu. I was able to solve in with some additional code found online.
+One of the features on the site that took some time to figure out was the fixed navigation in the header. Combining it with a position absolute for the form created some trouble at first, since the form went over the fixed menu. I was able to solve in with some additional code found online.
 
-Since it is important for the users that the page functions on smaller screens, I put some time to solve the navigation for smaller screens. The navigation goes vertical on smaller screens. 
+Since it is important for the users that the page functions on smaller screens, I put some effort to solve the navigation for smaller screens. The navigation goes vertical on smaller screens. 
 _______________________
 
 <h2>Testing</h2>
@@ -46,8 +46,6 @@ These are the tests that I did during the process:
 </ul>
 
 <img src="assets/images/lighthousevarde.JPG" alt="the site rating from Lighthouse">
-
-I tried to generate a favicon for my website to make the Lighthouse picture look better, but I ran out of time. Hopefully there will be time for the next project!
 
 <h3>Bugs</h3>
 When working with the media queries, the header element shows a gap that I wasn't able to fix on screen sizes 1200px and less:
