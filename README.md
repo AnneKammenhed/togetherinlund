@@ -86,7 +86,8 @@ I have gone through the different steps of the Love running project during this 
 <li>Images from https://www.pexels.com/sv-se/</li>
 <li>Symbols from https://fontawesome.com/</li>
 <li>Colour-palette from https://coolors.co/</li>
-<li>the video links to Lunds kommun youtube page</li>
+<li>Favicon from https://favicon.io/</li>
+<li>The video link goes to Lunds kommun Youtube page</li>
 </ul>
 
 The hero-image is taken by Rodnae productions.
