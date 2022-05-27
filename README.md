@@ -26,6 +26,10 @@ The site contains these features
 <li>About the organizations and video about Lund</li>
 <li>Footer with social media links</li>
 </ul>
+
+One of the features on the site that took some time to figure out was the fixed navigation in the header. Combining it with a position absolute for the form created some trouble at first, since the form whent over the fixed menu. I was able to solve in with some additional code found online.
+
+Since it is important for the users that the page functions on smaller screens, I put some time to solve the navigation for smaller screens. The navigation goes vertical on smaller screens. 
 _______________________
 
 <h2>Testing</h2>
@@ -46,10 +50,6 @@ These are the tests that I did during the process:
 I tried to generate a favicon for my website to make the Lighthouse picture look better, but I ran out of time. Hopefully there will be time for the next project!
 
 <h3>Bugs</h3>
-I ran the W3C HTML Validator and W3C CSS Validator (Jigsaw) a number of times and there was a couple of issued that I wasn't able to correct. For the hero image the W3C HTML Validator sais "Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed." althoug I added a div-element so the section. I tried different options for the link to youtube. The W3C HTML Validator sais that "The frameborder attribute on the iframe element is obsolete." However I was not able to fix it so the link is still in html.
-
-The W3C CSS Validator came back with a warning about the imported fonts.
-
 When working with the media queries, the header element shows a gap that I wasn't able to fix on screen sizes 1200px and less:
 
 <img src="assets/images/glappuppevanster.JPG" alt="upper left corner of site when screen size under 1200px">
@@ -59,6 +59,10 @@ Another bug, I wasn't able to fix when working with the media queries, is that t
 <img src="assets/images/glappnerehoger.JPG" alt="footer turns to right side of site when screen size under 1200px">
 
 When looking at the social media links in explorer, there is a line under the icons that is not visible in the other tested screen-readers.
+
+I ran the W3C HTML Validator and W3C CSS Validator (Jigsaw) a number of times and there was a couple of issued that I wasn't able to correct. For the hero image the W3C HTML Validator sais "Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed." althoug I added a div-element so the section. I tried different options for the link to youtube. The W3C HTML Validator sais that "The frameborder attribute on the iframe element is obsolete." However I was not able to fix it so the link is still in html.
+
+The W3C CSS Validator came back with a warning about the imported fonts.
 _______________________
 
 <h2>Deployment</h2>
@@ -73,7 +77,7 @@ _______________________
 <h2>Credits</h2>
 The site is built with the Code Institute student template for Gitpod. 
 
-I have have taken inspiration from the Love running project and reused the code that I wrote for the forms section. 
+I have gone through the different steps of the Love running project during this project and the step-by-step video instructions have really been helpful in solving some of the functions on this site. 
 
 <ul>
 <li>Fonts from https://fonts.google.com/</li>
