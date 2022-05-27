@@ -29,7 +29,7 @@ The site contains these features
 <li>Footer with social media links</li>
 </ul>
 
-One of the features on the site that took some time to figure out was the fixed navigation in the header. Combining it with a position absolute for the form created some trouble at first, since the form went over the fixed menu. I was able to solve in with some additional code found online.
+One of the features on the site that took some time to figure out was the fixed navigation in the header. Combining it with a position absolute for the form created some trouble at first, since the form went over the fixed menu. I was able to solve in with some additional code.
 
 Since it is important for the users that the page functions on smaller screens, I put some effort to solve the navigation for smaller screens. The navigation goes vertical on smaller screens. 
 _______________________
@@ -65,12 +65,16 @@ When looking at the social media links in explorer, there is a line under the ic
 I ran the W3C HTML Validator and W3C CSS Validator (Jigsaw) a number of times and there was a couple of issued that I wasn't able to correct. For the hero image the W3C HTML Validator sais "Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed." I added a div-element so the section. Another issue that turned up in testing is the link to youtube. I tried some different options. The W3C HTML Validator sais that "The frameborder attribute on the iframe element is obsolete." However I was not able to fix it so the link is still in html.
 
 The W3C CSS Validator came back with a warning about the imported fonts.
+
+The favicon does not display in the deployed site.
 _______________________
 
 <h2>Deployment</h2>
-The site and the code is available here:
+The site is available here:
 
 https://github.com/AnneKammenhed/togetherinlund
+
+The code is available here:
 
 https://annekammenhed.github.io/togetherinlund/index.html
 
