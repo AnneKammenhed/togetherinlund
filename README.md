@@ -11,6 +11,8 @@ _______________________
 
 The site targets people who don't usually get involved in social activities, the site aims to be a fun way to enroll in an activity.
 
+It also has to be accessible, since many users are older or might have a disability.
+
 <img src="assets/images/togetherinlund different screens.JPG" alt="the site together in lund o different screen sizes">
 
 _______________________
@@ -48,6 +50,8 @@ These are the tests that I did during the process:
 <img src="assets/images/lighthousevarde.JPG" alt="the site rating from Lighthouse">
 
 <h3>Bugs</h3>
+The vertical navigation menu on smaller screens is upside down. And the hero-image could use som media-query-magic for mobile screens. I'm hoping to learn a lot more about how to do it during the rest of this course.
+
 When working with the media queries, the header element shows a gap that I wasn't able to fix on screen sizes 1200px and less:
 
 <img src="assets/images/glappuppevanster.JPG" alt="upper left corner of site when screen size under 1200px">
@@ -58,7 +62,7 @@ Another bug, I wasn't able to fix when working with the media queries, is that t
 
 When looking at the social media links in explorer, there is a line under the icons that is not visible in the other tested screen-readers.
 
-I ran the W3C HTML Validator and W3C CSS Validator (Jigsaw) a number of times and there was a couple of issued that I wasn't able to correct. For the hero image the W3C HTML Validator sais "Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed." althoug I added a div-element so the section. I tried different options for the link to youtube. The W3C HTML Validator sais that "The frameborder attribute on the iframe element is obsolete." However I was not able to fix it so the link is still in html.
+I ran the W3C HTML Validator and W3C CSS Validator (Jigsaw) a number of times and there was a couple of issued that I wasn't able to correct. For the hero image the W3C HTML Validator sais "Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed." I added a div-element so the section. Another issue that turned up in testing is the link to youtube. I tried some different options. The W3C HTML Validator sais that "The frameborder attribute on the iframe element is obsolete." However I was not able to fix it so the link is still in html.
 
 The W3C CSS Validator came back with a warning about the imported fonts.
 _______________________
